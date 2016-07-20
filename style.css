@@ -67,10 +67,7 @@ a{
 	font-weight: bold;
 }
 
-footer{
-	background-color: #4A96AD;
-	border: 1px black solid;
-	padding: 20px;
+
 }
 
 nav{
@@ -95,3 +92,35 @@ nav{
 	text-align: left;
 	
 }
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+footer{
+	background-color: #4A96AD;
+	border: 1px black solid;
+	padding: 20px;
