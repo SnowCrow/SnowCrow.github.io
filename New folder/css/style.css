@@ -15,7 +15,6 @@ body {
 	width:31.3%;
 	float:left;
 	margin: 1%;
-
 }
 .column3 {margin-right: 0%
 }
@@ -52,14 +51,9 @@ li{
 
 
 #slogan, h1 { 
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
 	font-style: italic;	
 	background-color: #efefef;
-
-}
-
-h2 {
-	text-align: center;
 }
