@@ -1,4 +1,4 @@
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	width: 80%;
 	margin: 0 auto;
@@ -7,9 +7,13 @@ body {
 }	
 #content {overflow: auto;}
 
-#nav, #feature, #footer {
+nav, #feature, footer, header {
 	margin: 1%;
 	text-align: center;
+}
+header {
+	background: #efefef;
+	padding:1em;
 }
 .column1, .column2, .column3 {
 	width:31.3%;
@@ -24,7 +28,7 @@ li{
 	display: inline;
 	padding: 0.5em;
 }
-#nav, #footer {
+nav, footer {
 	background-color: #E44424;
 	padding: 0.5em 0;
 
@@ -47,6 +51,7 @@ li{
 	height: 20em;
 	margin-bottom: 1em;
 	background-color: #efefef;
+	padding: 2em;
 }
 
 
